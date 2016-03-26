@@ -22,7 +22,7 @@ If you want to change the port, you can change the **&lt;entryPoint&gt;** in the
 
 How to build: 
 
-mvn clean install docker:build -Ddocker.registry.host=<your docker registry host> -Ddocker.registry.port=<your docker registry port>
+mvn clean install docker:build -Ddocker.registry.host=&lt;your docker registry host&gt; -Ddocker.registry.port=&lt;your docker registry port&gt;
 Boot up the container and point your browser to the respective URL
 
 
