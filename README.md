@@ -16,8 +16,8 @@ Port to expose:
 
 **8080** (Default Wildfly Swarm Port)
 
-If you want to change the port, you can change the **entryPoint** in the projects pom.xml to include "-Dswarm.http.port" like this:
-["java", "-Dswarm.http.port=<port> -jar", "/${project.build.finalName}-swarm.jar"]
+If you want to change the port, you can change the **&lt;entryPoint&gt;** in the projects pom.xml to include "-Dswarm.http.port" like this:
+&lt;entryPoint&gt;["java", "-Dswarm.http.port=&lt;port&gt; -jar", "/${project.build.finalName}-swarm.jar"]&lt;/entryPoint&gt;
 
 
 How to build: 
