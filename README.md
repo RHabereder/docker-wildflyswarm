@@ -14,7 +14,7 @@ The only Maven Parameters you need are **docker.registry.host** and **docker.reg
 
 Port to expose: 
 
-**8180** (Default Wildfly Swarm Port)
+**8180**
 
 If you want to change the port of your swarm-app, you can change the **&lt;entryPoint&gt;** in the projects pom.xml
 
